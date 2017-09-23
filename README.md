@@ -10,7 +10,7 @@ Beeps. I use it at the end of a long-running command:
 
 Launches `cmd.exe` elevated. I use it with an Explorer context menu entry for a quick open-admin-prompt-here shortcut since they removed the shortcut in Explorer's menu.
 
-See `windows/bgcmd_user.reg`.
+See [`windows/bgcmd_user.reg`](#windowsbgcmd_userreg).
 
 ### windows/cmdw.c
 
