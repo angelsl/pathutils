@@ -1,0 +1,37 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\open_msys2]
+@="Open MSYS2 here"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\background\shell\open_msys2\command]
+@="C:\\Users\\angelsl\\Root\\msys2\\usr\\bin\\mintty.exe /usr/bin/bash -c 'CHERE_INVOKING=1 exec /usr/bin/bash --login -i'"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\open_msys2]
+@="Open MSYS2 here"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\open_msys2\command]
+@="C:\\Users\\angelsl\\Root\\msys2\\usr\\bin\\mintty.exe /usr/bin/bash -c 'CHERE_INVOKING=1 exec /usr/bin/bash --login -i'"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\open_msys2]
+@="Open MSYS2 here"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\open_msys2\command]
+@="C:\\Users\\angelsl\\Root\\msys2\\usr\\bin\\mintty.exe /usr/bin/bash -c 'CHERE_INVOKING=1 exec /usr/bin/bash --login -i'"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\admincmd]
+@="Open admin prompt"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\admincmd\command]
+@="C:\\Users\\angelsl\\Root\\Path\\admincmd.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\admincmd]
+@="Open admin prompt"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\admincmd\command]
+@="C:\\Users\\angelsl\\Root\\Path\\admincmd.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\admincmd]
+@="Open admin prompt"
+
+[HKEY_CURRENT_USER\Software\Classes\Drive\shell\admincmd\command]
+@="C:\\Users\\angelsl\\Root\\Path\\admincmd.exe"
