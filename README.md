@@ -20,6 +20,12 @@ I use it in a shortcut to launch VS Code with a modified `PATH`, since VS Code o
 
 `cmdw /c apath nodejs & start "" /D "C:\Program Files\Microsoft VS Code\" /B "C:\Program Files\Microsoft VS Code\Code.exe"`
 
+### windows/startw.c
+
+Lets you launch anything, suppressing any command windows.
+
+I use it in a shortcut to launch a Node daemon in the background.
+
 ### windows/bgcmd.reg
 
 Removes the `Extended` key from the _Open command window here_/_Open PowerShell window here_ context menu entries, so it shows up without holding Shift.
